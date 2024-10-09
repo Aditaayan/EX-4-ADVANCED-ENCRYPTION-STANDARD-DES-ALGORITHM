@@ -19,8 +19,8 @@
 ## PROGRAM: 
 
 ```
-Name: DHARAN ADITYA
-Register Number: 212223040035
+Name: BALAJI
+Register Number: 212223040024
 ```
 ```
 #include <stdio.h>
@@ -39,7 +39,7 @@ for (int i = 0; i < input_len; i++) {
 int main() {
     printf("***** ADVANCED-ENCRYPTION-STANDARD-DES-ALGORITHM *****\n\n");
     
-char url[] = "DHARAN";
+char url[] = "BALAJI";
 char key[] = "secretkey"; 
 
 printf("Original text: %s\n", url);
@@ -54,7 +54,7 @@ return 0;
 }
 ```
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/b9459671-7d0f-4983-b507-a528fa96e69d)
+![image](https://github.com/user-attachments/assets/7f6d776a-f9f6-45b9-9ec2-3b8e2cf22987)
 
 
 
