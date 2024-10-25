@@ -12,15 +12,15 @@
 
 3 . 16 Rounds:
 
-    Expansion: The right half is expanded.
+Expansion: The right half is expanded.
     
-    XOR: The expanded right half is XORed with the subkey.
+XOR: The expanded right half is XORed with the subkey.
     
-    Substitution: The result is substituted using S-boxes.
+Substitution: The result is substituted using S-boxes.
     
-    Permutation: The substituted result is permuted.
+Permutation: The substituted result is permuted.
     
-    Swap: The left and right halves are swapped.
+Swap: The left and right halves are swapped.
     
 4 . Final Permutation: The ciphertext is rearranged.
 
