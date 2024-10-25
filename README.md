@@ -43,7 +43,7 @@ for (int i = 0; i < input_len; i++) {
 int main() {
     printf("***** ADVANCED-ENCRYPTION-STANDARD-DES-ALGORITHM *****\n\n");
     
-char url[] = "AADHI";
+char url[] = "DHARAN";
 char key[] = "secretkey"; 
 
 printf("Original text: %s\n", url);
@@ -60,8 +60,7 @@ return 0;
 
 ## OUTPUT:
 
-![image](https://github.com/user-attachments/assets/d5f86899-e5a6-4560-8a81-fed376ae1318)
-
+![image](https://github.com/user-attachments/assets/c68f0526-4221-4bd1-8610-7785f72ba676)
 
 ## RESULT: 
 Hence,the DES Encryption and Decryotion is done successfully.
