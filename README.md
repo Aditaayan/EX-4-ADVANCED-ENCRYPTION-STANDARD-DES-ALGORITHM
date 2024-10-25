@@ -1,9 +1,11 @@
 # EX-8-ADVANCED-ENCRYPTION-STANDARD-DES-ALGORITHM
 
 ## Aim:
+
   The aim of this exercise is to understand and implement the Data Encryption Standard (DES) algorithm
 
 ## ALGORITHM: 
+
 1 . Initial Permutation: The plaintext block is rearranged.
 
 2 . Key Generation: The key is divided into two halves, shifted, and permuted to create 16 subkeys.
@@ -16,12 +18,9 @@
     Swap: The left and right halves are swapped.
     
 4 . Final Permutation: The ciphertext is rearranged.
+
 ## PROGRAM: 
 
-```
-Name: BALAJI
-Register Number: 212223040024
-```
 ```
 #include <stdio.h>
 #include <string.h>
@@ -39,7 +38,7 @@ for (int i = 0; i < input_len; i++) {
 int main() {
     printf("***** ADVANCED-ENCRYPTION-STANDARD-DES-ALGORITHM *****\n\n");
     
-char url[] = "BALAJI";
+char url[] = "AADHI";
 char key[] = "secretkey"; 
 
 printf("Original text: %s\n", url);
@@ -53,9 +52,10 @@ printf("Decrypted text: %s\n", url);
 return 0;
 }
 ```
-## OUTPUT:
-![image](https://github.com/user-attachments/assets/7f6d776a-f9f6-45b9-9ec2-3b8e2cf22987)
 
+## OUTPUT:
+
+![image](https://github.com/user-attachments/assets/d5f86899-e5a6-4560-8a81-fed376ae1318)
 
 
 ## RESULT: 
