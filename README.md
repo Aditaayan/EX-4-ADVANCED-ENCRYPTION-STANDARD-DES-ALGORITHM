@@ -11,10 +11,15 @@
 2 . Key Generation: The key is divided into two halves, shifted, and permuted to create 16 subkeys.
 
 3 . 16 Rounds:
+
     Expansion: The right half is expanded.
+    
     XOR: The expanded right half is XORed with the subkey.
+    
     Substitution: The result is substituted using S-boxes.
+    
     Permutation: The substituted result is permuted.
+    
     Swap: The left and right halves are swapped.
     
 4 . Final Permutation: The ciphertext is rearranged.
